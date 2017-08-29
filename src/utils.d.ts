@@ -24,14 +24,14 @@ export declare const eastUpSouthToFixedFrame: Transforms.ConversionFunction;
  * @param frame A Cesium Entity to get ancestor reference frames.
  * @param frames An array of reference frames of the Cesium Entity.
  */
-export declare function getAncestorReferenceFrames(frame: Entity, result?: never[]): (Entity | ReferenceFrame)[];
+export declare function getAncestorReferenceFrames(frame: Entity, result?: never[]): (ReferenceFrame | Entity)[];
 /**
  * Get array of ancestor reference frames of a Cesium Entity, ordered from
  * farthest ancestor which has a valid pose to the passed frame, excluding the passed frame.
  * @param frame A Cesium Entity to get ancestor reference frames.
  * @param frames An array of reference frames of the Cesium Entity.
  */
-export declare function getReachableAncestorReferenceFrames(frame: Entity, time: JulianDate, result?: never[]): (Entity | ReferenceFrame)[];
+export declare function getReachableAncestorReferenceFrames(frame: Entity, time: JulianDate, result?: never[]): (ReferenceFrame | Entity)[];
 /**
  * Gets the value of the Position property at the provided time and in the provided reference frame.
  * @param entity The entity to get position.

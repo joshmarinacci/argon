@@ -15,7 +15,7 @@ export declare class EntityPose {
     private _entity;
     private _referenceFrame;
     readonly entity: Entity;
-    readonly referenceFrame: Entity | ReferenceFrame;
+    readonly referenceFrame: ReferenceFrame | Entity;
     /**
      * The status of this pose, as a bitmask.
      *

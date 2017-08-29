@@ -1,5 +1,5 @@
-import CardboardUI from 'googlevr/webvr-polyfill/src/cardboard-ui';
-import 'googlevr/webvr-polyfill/src/main';
+import CardboardUI from 'webvr-polyfill/src/cardboard-ui';
+import 'webvr-polyfill/src/main';
 
 // fix cardboard ui to listen for touch or mouse events.
 // see https://github.com/googlevr/webvr-polyfill/issues/174

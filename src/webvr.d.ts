@@ -1,1 +1,1 @@
-import 'googlevr/webvr-polyfill/src/main';
+import 'webvr-polyfill/src/main';

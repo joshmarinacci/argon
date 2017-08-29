@@ -41,7 +41,7 @@ export declare class ViewService {
      * being forwarded to another layer) call event.stopImmediatePropagation().
      */
     uiEvent: Event<{
-        event: UIEvent | MouseEvent | PointerEvent | WheelEvent | TouchEvent;
+        event: TouchEvent | UIEvent | MouseEvent | WheelEvent | PointerEvent;
         forwardEvent: () => void;
     }>;
     /**

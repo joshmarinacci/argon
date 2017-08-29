@@ -242,7 +242,13 @@
     }
   },
   "dependencies": {
-    "aurelia-dependency-injection": "^1.0.0"
+    "aurelia-dependency-injection": "^1.0.0",
+    "aurelia-polyfills": "^1.2.2",
+    "cesium": "git+https://github.com/aelatgt/cesium.git#referenceFrames",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webvr-polyfill": "^0.9.36"
   },
   "devDependencies": {
     "@types/chai": "^3.4.29",
